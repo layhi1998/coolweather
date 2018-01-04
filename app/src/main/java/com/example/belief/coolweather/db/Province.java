@@ -2,9 +2,6 @@ package com.example.belief.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 
-/**
- * Created by Belief on 2018/1/2.
- */
 
 public class Province extends DataSupport {
     private int id;
