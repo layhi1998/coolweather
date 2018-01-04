@@ -1,10 +1,10 @@
-package com.example.belief.coolweather.util;
+package com.example.layhi.coolweather.util;
 
 import android.text.TextUtils;
 
-import com.example.belief.coolweather.db.City;
-import com.example.belief.coolweather.db.County;
-import com.example.belief.coolweather.db.Province;
+import com.example.layhi.coolweather.db.City;
+import com.example.layhi.coolweather.db.County;
+import com.example.layhi.coolweather.db.Province;
 
 import org.json.JSONArray;
 import org.json.JSONException;

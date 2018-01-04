@@ -1,4 +1,4 @@
-package com.example.belief.coolweather;
+package com.example.layhi.coolweather;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -13,11 +13,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.belief.coolweather.db.City;
-import com.example.belief.coolweather.db.County;
-import com.example.belief.coolweather.db.Province;
-import com.example.belief.coolweather.util.HttpUtil;
-import com.example.belief.coolweather.util.Utility;
+import com.example.layhi.coolweather.db.City;
+import com.example.layhi.coolweather.db.County;
+import com.example.layhi.coolweather.db.Province;
+import com.example.layhi.coolweather.util.HttpUtil;
+import com.example.layhi.coolweather.util.Utility;
 
 import org.litepal.crud.DataSupport;
 

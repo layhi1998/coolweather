@@ -1,4 +1,4 @@
-package com.example.belief.coolweather;
+package com.example.layhi.coolweather;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

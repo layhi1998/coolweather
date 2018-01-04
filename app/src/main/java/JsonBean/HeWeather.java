@@ -1,7 +1,7 @@
 /**
   * Copyright 2018 bejson.com 
   */
-package com.besjon.pojo;
+package JsonBean;
 import java.util.List;
 
 /**
@@ -15,9 +15,9 @@ public class HeWeather {
     private Aqi aqi;
     private Basic basic;
     private List<Daily_forecast> daily_forecast;
-    private Now now;
+    private JsonBean.Now now;
     private String status;
-    private Suggestion suggestion;
+    private JsonBean.Suggestion suggestion;
     public void setAqi(Aqi aqi) {
          this.aqi = aqi;
      }
@@ -39,10 +39,10 @@ public class HeWeather {
          return daily_forecast;
      }
 
-    public void setNow(Now now) {
+    public void setNow(JsonBean.Now now) {
          this.now = now;
      }
-     public Now getNow() {
+     public JsonBean.Now getNow() {
          return now;
      }
 
@@ -53,10 +53,10 @@ public class HeWeather {
          return status;
      }
 
-    public void setSuggestion(Suggestion suggestion) {
+    public void setSuggestion(JsonBean.Suggestion suggestion) {
          this.suggestion = suggestion;
      }
-     public Suggestion getSuggestion() {
+     public JsonBean.Suggestion getSuggestion() {
          return suggestion;
      }
 
